@@ -42,6 +42,6 @@
   "devDependencies": {
     "@astrajs/collections": "^0.1.0",
     "faker": "^5.5.3",
-    "netlify-cli": "^4.4.3"
+    "netlify-cli": "^4.4.4"
   }
 }
