@@ -27,6 +27,11 @@ const Home = () => {
     const newValue = userToToggle.is_followed ? false : true;
     const data = { is_followed: newValue };
 
+    axios
+    .create({
+      baseURL: 'https://stargate-tik-tok.netlify.app/'
+    });
+
     axios.put("/.netlify/functions/edit", {
       userId: userToToggle.id,
       data: data,
