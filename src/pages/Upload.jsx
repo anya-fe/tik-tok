@@ -5,7 +5,7 @@ import faker from "faker";
 const Upload = () => {
   const username = "anna0006";
   const name = "Anna Levandovska";
-  const avatar = "https://imgur.com/hhgYgOS";
+  const avatar = `https://imgur.com/hhgYgOS`;
   let id = faker.datatype.uuid();
   const today = new Date();
   const timestamp = today.toISOString();
